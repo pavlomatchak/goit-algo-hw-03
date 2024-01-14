@@ -24,4 +24,5 @@ def draw(order, size=300):
 
   window.mainloop()
 
-draw(2)
+user_input = int(input("Enter the recursion level: "))
+draw(user_input)
